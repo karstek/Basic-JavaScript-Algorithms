@@ -13,3 +13,5 @@ function caesarCipher(str) {
       return String.fromCharCode(x - 13);
     }).join('');
 }
+//EXAMPLE
+caesarCipher("SERR PBQR PNZC");
